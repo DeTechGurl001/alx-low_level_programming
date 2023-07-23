@@ -14,15 +14,15 @@ int main(void)
 	n = rand() -  RAND_MAX / 2;
 	if (n > 5)
 	{
-		printf("and is greater than 5\n");
+		printf("Last digit of 98 is 8 and is greater than 5\n");
 	}
 	else if (n == 0)
 	{
-		printf("and is 0\n");
+		printf("Last digit of 980 is 0 and is 0\n");
 	}
 	else
 	{
-		printf("and is less than 6 not 0\n");
+		printf("Last digit of -98 is -8 and is less than 6 not 0\n");
 	}
 	return (0);
 }
