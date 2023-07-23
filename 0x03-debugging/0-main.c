@@ -5,12 +5,9 @@
 */
 
 int main(void)
-	
 {
 	int i;
-
-	i = 98;
-	printf("positive_or_negative(i)\n");
-
+	i = 0;
+	printf("positive_or_negative(i)\n")
 	return (0);
 }
