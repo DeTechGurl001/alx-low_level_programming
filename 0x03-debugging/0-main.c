@@ -6,8 +6,12 @@
 
 int main(void)
 {
+
 	int i;
+
 	i = 0;
-	printf("positive_or_negative(i)\n")
+
+	printf("positive_or_negative()\n");
+
 	return (0);
 }
