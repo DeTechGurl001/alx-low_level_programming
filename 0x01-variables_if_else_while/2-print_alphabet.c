@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
  * main - Entry point
- *
+ * Description: A program that prints the alphabet in lowercase
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	char current_char = 'a';
 
@@ -13,6 +13,6 @@ int main()
 		putchar(current_char);
 		current_char++;
 	}
-	putchar('/n');
+	putchar('\n');
 	return (0);
 }
