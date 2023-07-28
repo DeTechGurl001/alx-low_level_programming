@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char current_char = 'a';
+	char lowercase = 'a';
 
 	for (int i = 0; i < 26; i++)
 	{
-		putchar(current_char);
-		current_char++;
+		putchar(lowercase);
+		lowercase;
 	}
 	putchar('\n');
 	return (0);
