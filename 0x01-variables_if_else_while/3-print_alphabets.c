@@ -6,21 +6,13 @@
  */
 int main(void)
 {
-	char lowercase = 'a';
-	char uppercase = 'A';
+	char alp[26] =
+"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	while
-		(lowercase <= 'z');
+	for (i = 0; i < 26; i++)
 	{
-		putchar(lowercase);
-		lowercase++;
-	}
-
-	while
-		(uppercase <= 'Z');
-	{
-		putchar(uppercase);
-		uppercase++;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 
